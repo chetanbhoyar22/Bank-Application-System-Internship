@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>New Account Creation Form</h2>
+<hr>
+<form name="frm" method="post" action="RegisterAccount">
+<table>
+<tr>
+<td>Account Number
+<td><input type="text" name="uid" required>
+</tr>
+<tr>
+<td>Account Holder Name
+<td><input type="text" name="unm" required>
+</tr>
+<tr>
+<td>Account Type
+<td>
+<input type="radio" name="ty" value="Current" required> Current Account
+<input type="radio" name="ty" value="Fixed" required> Fixed Account
+<input type="radio" name="ty" value="Saving" required> Saving Account
+</tr>
+<tr>
+<td>Account Balance
+<td><input type="number" name="bal" required>
+</tr>
+<tr>
+<td><input type="submit" value="Submit">
+</tr>
+</table>
+</form>
+</body>
+</html>
